@@ -10,12 +10,12 @@ WHERE trip_distance >= 1
 
 --- Question 4
 
-SELECT trip_distance
+SELECT count(index)
 FROM public.green_taxi_data
-WHERE lpep_pickup_datetime >= '2019-10-11 00:00:00'
-	AND lpep_pickup_datetime < '2019-10-12 00:00:00'
-ORDER by trip_distance DESC
-LIMIT 1
+WHERE trip_distance > 1
+AND trip_distance <= 3
+AND lpep_pickup_datetime >= '2019-10-01 00:00:00'
+AND lpep_pickup_datetime < '2019-11-01 00:00:00';
 
 
 
