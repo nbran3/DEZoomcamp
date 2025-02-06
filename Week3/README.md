@@ -37,7 +37,7 @@ PARTITION BY DATE(tpep_dropoff_datetime)
 CLUSTER BY VendorID
 AS 
 SELECT *
-FROM table_name
+FROM `table_name`
 
 Q6 :
 
