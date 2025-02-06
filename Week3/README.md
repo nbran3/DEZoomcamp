@@ -21,7 +21,7 @@ Q3 :
 SELECT PULocationID,  
 FROM `table_name`
 
-SELECT PULocationID,  DOLocationID
+SELECT PULocationID, DOLocationID
 FROM `table_name`
 
 Q4 :
