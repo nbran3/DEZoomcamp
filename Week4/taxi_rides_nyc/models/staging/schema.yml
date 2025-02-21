@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: staging
+    database: nyctaxi-451315
+    schema: nyc_taxi_data
+
+    tables:
+      - name: green_taxidata
+      
+      - name: yellow_taxidata
+
+      - name: fhv_taxidata
